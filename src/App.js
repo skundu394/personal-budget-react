@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import {
   BrowserRouter as Router,
@@ -13,7 +13,7 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
-
+import PieChart from './Budget/PieChart';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
         </Routes>
       </switch>
     </div>
-     <HomePage/>
+     <PieChart/>
      <Footer/>
     </Router>
   );
